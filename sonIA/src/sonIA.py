@@ -4,4 +4,4 @@ class Bot(object):
         pass
 
     def act(self, xdif, ydif, vel):
-      	pass
+      	return 1
