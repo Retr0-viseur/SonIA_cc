@@ -4,4 +4,5 @@ class Bot(object):
         pass
 
     def act(self, xdif, ydif, vel):
-      	return 1
+      	if ydif<38:
+            return 1
