@@ -5,8 +5,8 @@ class Bot(object):
 
     def act(self, xdif, ydif, vel):
         if vel<-7:
-            if ydif<40:
+            if ydif<50:
                 return 1
-        if 4>vel>=-7:
-            if ydif<35:
+        if vel>=-7:
+            if ydif<55:
                 return 1
